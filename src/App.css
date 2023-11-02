@@ -1,0 +1,222 @@
+
+.navbar{
+    position: relative;
+    min-height: 6vh;
+    width: 100vw;
+    background: linear-gradient(90deg, #812868 0%, #f954a4 100%);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.navbar>.left{
+    position: relative;
+    width: 30vw;
+    color: white;
+    font-size: 1.3vw;
+}
+i{
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+.navbar>.right{
+    position: relative;
+    width: 55vw;
+    color: white;
+    font-size: 1.3vw;
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    height: 4vh;
+}
+.navbar>.right>ul{
+display: flex;
+list-style: none;
+gap: 1vh;
+}
+.navbar>.right>.call{
+    display: flex;
+    gap: 2vh;
+}
+
+.navbar2{
+    position: relative;
+    min-height: 12vh;
+    width: 100vw;
+    background-color:white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* justify-content: center; */
+}
+.navbar2>img{
+    height: 10vh;
+    width: 7vw;
+    object-fit: cover;
+    object-position: center;
+}
+.navbar2>ul{
+    display: flex;
+    list-style: none;
+    gap: 1.3vw;
+   
+}
+.navbar2>ul>li{
+    font-size: 1.3vw;
+    cursor: pointer;
+}
+.navbar2>ul>li:hover{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.Carousel{
+    /* position: relative; */
+    height: 81vh;
+    width: 100vw;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+
+
+
+@media screen and (max-width:500px){
+    .navbar{
+        position: relative;
+        min-height: 6vh;
+        width: 100vw;
+        background: linear-gradient(90deg, #812868 0%, #f954a4 100%);
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    
+    }
+    .navbar>.right{
+        position: relative;
+        width: 100vw;
+        color: white;
+        font-size: 2vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* border: 1px solid black; */
+        text-align: center;
+        align-items: center;
+        margin-top: 3vw;
+        height: 4vh;
+    }
+    i{
+        font-size: 2vw;
+    }
+    .navbar>.left{
+        font-size: 3vw;
+        width: 100vw;
+    }
+
+    .navbar2{
+        position: relative;
+        min-height: 10vh;
+        width: 100vw;
+        background-color:white;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar2>img{
+        height: 5vh;
+        width: 15vw;
+        object-fit: cover;
+        object-position: center;
+    }
+    .Carousel{
+        /* position: relative; */
+        height: 81vh;
+        width: 100vw;
+        background-color: white;
+        overflow-x: hidden;
+    }
+    .navbar2>ul>li{
+        font-size: 1.6vw;
+        cursor: pointer;
+    }
+}
+
+
+
+@media screen and (max-width:700px){
+    .navbar{
+        position: relative;
+        min-height: 6vh;
+        width: 100vw;
+        background: linear-gradient(90deg, #812868 0%, #f954a4 100%);
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    
+    }
+    .navbar>.right{
+        position: relative;
+        width: 100vw;
+        color: white;
+        font-size: 2vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* border: 1px solid black; */
+        text-align: center;
+        align-items: center;
+        margin-top: 3vw;
+        height: 4vh;
+    }
+    i{
+        font-size: 2vw;
+    }
+    .navbar>.left{
+        font-size: 3vw;
+        width: 100vw;
+    }
+
+    .navbar2{
+        position: relative;
+        min-height: 10vh;
+        width: 100vw;
+        background-color:white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        /* justify-content: center; */
+    }
+    .navbar2>img{
+        height: 5vh;
+        width: 15vw;
+        object-fit: cover;
+        object-position: center;
+    }
+    .Carousel{
+        /* position: relative; */
+        height: 81vh;
+        width: 100vw;
+        background-color: white;
+        overflow-x: hidden;
+    }
+    .navbar2>ul>li{
+        font-size: 1.6vw;
+        cursor: pointer;
+    }
+}
